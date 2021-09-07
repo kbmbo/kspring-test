@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+html {
+  font-family: 'nanumsquare', 'Nanum Gothic', 'sans-serif';
+}
+body {font-size: 14px;}
+li {list-style: none;}
+button {cursor: pointer; border: 1px solid #ccc; background-color: #eee; border-radius: 3px; padding: 0 10px;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+a {text-decoration: none; color: #000;}
+input {border: 1px solid #ccc;}
+
+.main {
+  background-color: #000;
+  background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FX3a6M%2FbtqJyx7CHtQ%2Fuu9056rqsOLaY1r98Lxkp0%2Fimg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.row button:not(:first-of-type){margin-left: 10px;}
+.thumb {
+  text-align: center;
+}
+.thumb .img {
+  width: 100%;
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nav-link a{
+  color: #fff;
+}
+.nav-link a:hover{
+  color: rgba(255,255,255,0.5);
+}
+button.more{
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 30px;
+  &:hover{
+    background-color: rgba(0,0,0,0.7);
+  }
+}
